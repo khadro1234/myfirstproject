@@ -1,19 +1,23 @@
 ﻿
-    
-    String name = "Khadro mohamed abdirahman";// Add commentMore action
-            Console.WriteLine("Name: " + name);
-string mothername = "Nasra yusuf";
+
+string name = "Khadro mohamed abdrhman";
+Console.WriteLine("Name: " + name);
+string mothername = "Nasra Yusuf";
 Console.WriteLine("Momother'Name: " + mothername);
-string dop = "2000-05-16";
-Console.WriteLine("Date Of Birth: " + dop);
+
+int birthYear = 2002;
+int birthMonth = 05;
+int birthDay = 25;
+DateTime dob = new DateTime(birthYear, birthMonth, birthDay);
+Console.WriteLine("Date Of Birth: " + dob.ToString("yyyy-MM-dd"));
+
 string pob = "Galkio";
-Console.WriteLine("Place Of Pirt: " + pob);
+Console.WriteLine("Place Of Pirth: " + pob);
 string address = "Israac";
 Console.WriteLine("Address: " + address);
-int telphone = 0907221799;
+int telphone = 097221799;
 Console.WriteLine("Telphone: " + telphone);
 string sex = "Female";
 Console.WriteLine("Sex: " + sex);
 string status = "Single";
 Console.WriteLine("Status: " + status);
-//Add comment
